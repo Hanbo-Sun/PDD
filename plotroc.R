@@ -7,12 +7,6 @@ roc_obj <- roc(testY, pred1)
 roc_obj$auc
 auc(roc_obj)
 
-0.9862
-0.9862
-0.9855
-0.9803
-
-
 ttp = as.numeric(testY)-1
 dt <- data.frame(D = ttp, M1 = pred1,M2=pred2,M3=pred3,M4=pred4)
 
